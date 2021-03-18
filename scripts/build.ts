@@ -1,13 +1,4 @@
-import { build as snowpackBuild } from 'snowpack'
+import { build } from './common'
 
 process.env.NODE_ENV = 'production'
 build()
-
-async function build() {
-  const { snowPackConfig } = await import('../config/snowpack')
-
-  await snowpackBuild({
-    config: snowPackConfig,
-    lockfile: null
-  })
-}

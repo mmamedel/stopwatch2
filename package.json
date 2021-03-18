@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node scripts/start.ts",
-    "build": "ts-node scripts/build.ts"
+    "build": "ts-node scripts/build.ts",
+    "deploy": "ts-node scripts/deploy.ts"
   },
   "repository": {
     "type": "git",
