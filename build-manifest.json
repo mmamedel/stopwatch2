@@ -1,0 +1,79 @@
+{
+  "inputs": {
+    "js/models/index.js": {
+      "bytes": 209,
+      "imports": []
+    },
+    "js/helpers/time.js": {
+      "bytes": 597,
+      "imports": []
+    },
+    "js/components/app/app-presenter.js": {
+      "bytes": 1160,
+      "imports": [
+        {
+          "path": "js/models/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/helpers/time.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "js/components/app/app-view.js": {
+      "bytes": 667,
+      "imports": []
+    },
+    "js/components/app/index.js": {
+      "bytes": 196,
+      "imports": [
+        {
+          "path": "js/components/app/app-presenter.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/components/app/app-view.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "js/index.js": {
+      "bytes": 391,
+      "imports": [
+        {
+          "path": "js/components/app/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/js/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "js/index.js",
+      "inputs": {
+        "js/components/app/index.js": {
+          "bytesInOutput": 99
+        },
+        "js/components/app/app-presenter.js": {
+          "bytesInOutput": 1035
+        },
+        "js/models/index.js": {
+          "bytesInOutput": 191
+        },
+        "js/helpers/time.js": {
+          "bytesInOutput": 574
+        },
+        "js/components/app/app-view.js": {
+          "bytesInOutput": 652
+        },
+        "js/index.js": {
+          "bytesInOutput": 344
+        }
+      },
+      "bytes": 3130
+    }
+  }
+}
