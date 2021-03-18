@@ -1,0 +1,41 @@
+{
+  "name": "stopwatch2",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node scripts/start.ts",
+    "build": "ts-node scripts/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmamedel/stopwatch2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmamedel/stopwatch2/issues"
+  },
+  "homepage": "https://github.com/mmamedel/stopwatch2#readme",
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/gh-pages": "^3.0.0",
+    "@types/node": "^14.14.35",
+    "@types/ramda": "^0.27.39",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "gh-pages": "^3.1.0",
+    "ramda": "^0.27.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "recoil": "^0.1.3",
+    "snowpack": "^3.0.13",
+    "snowpack-plugin-skypack-replacer": "^1.0.0",
+    "ts-node": "^9.1.1"
+  }
+}
