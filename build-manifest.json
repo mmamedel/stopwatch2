@@ -22,7 +22,7 @@
       ]
     },
     "js/components/app/app-view.js": {
-      "bytes": 667,
+      "bytes": 858,
       "imports": []
     },
     "js/components/app/index.js": {
@@ -67,13 +67,13 @@
           "bytesInOutput": 574
         },
         "js/components/app/app-view.js": {
-          "bytesInOutput": 652
+          "bytesInOutput": 839
         },
         "js/index.js": {
           "bytesInOutput": 344
         }
       },
-      "bytes": 3130
+      "bytes": 3317
     }
   }
 }

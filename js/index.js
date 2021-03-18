@@ -62,21 +62,29 @@ function AppPresenter() {
 
 // js/components/app/app-view.js
 import {css, jsx} from "https://cdn.skypack.dev/@emotion/react@^11.1.5";
-var fontCss = css`
+var containerCss = css`
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 `;
+var timeCodeCss = css`
+  font-size: 16vw;
+  font-weight: bold;
+`;
+var buttonSize = 20;
 var buttonCss = css`
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
+  width: ${buttonSize}vw;
+  height: ${buttonSize}vw;
+  border-radius: ${buttonSize / 2}vw;
+  font-size: ${buttonSize / 5}vw;
 `;
 var playCss = css`
   background: green;
 `;
 var AppView = (props) => /* @__PURE__ */ jsx("div", {
-  css: fontCss
-}, /* @__PURE__ */ jsx("h1", null, props.timeLabel), /* @__PURE__ */ jsx("button", {
+  css: containerCss
+}, /* @__PURE__ */ jsx("div", {
+  css: timeCodeCss
+}, props.timeLabel), /* @__PURE__ */ jsx("button", {
   css: buttonCss,
   onClick: props.reset,
   disabled: !props.isPaused
