@@ -14,7 +14,17 @@ deploy()
 async function deploy() {
   await build()
 
-  ghpages.publish('build', { repo }, (err) => {
-    err && console.error(err)
-  })
+  ghpages.publish(
+    'build',
+    {
+      repo,
+      user: {
+        name: 'Git Hub Actions',
+        email: 'actions@github.com'
+      }
+    },
+    (err) => {
+      err && console.error(err)
+    }
+  )
 }
