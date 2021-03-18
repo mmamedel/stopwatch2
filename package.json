@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmamedel/stopwatch2.git"
+    "url": "https://github.com/mmamedel/stopwatch2.git"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "@types/ramda": "^0.27.39",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
+    "dotenv": "^8.2.0",
     "gh-pages": "^3.1.0",
     "ramda": "^0.27.1",
     "react": "^17.0.1",
